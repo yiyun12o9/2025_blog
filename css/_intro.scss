@@ -1,0 +1,47 @@
+.intro-img{
+  display: flex;
+  img{
+    width:50%;
+  }
+  .intro_title{
+    margin: 13% 0 0 -45%;
+    .name{
+      font-size: 90px;
+      font-weight: 900;
+      color:#0027D5;
+      font-family: "Noto Sans TC", sans-serif;
+    }
+    .job{
+      font-size: 22px;
+      font-weight: 700;
+      color:#0027D5;
+      font-family: "Noto Sans TC", sans-serif;
+    }
+  }
+}
+
+.intro_content{
+  background-color: #ffffff;
+  margin: -10% 8% 0 auto;
+  max-width: 900px;
+  padding: 40px 80px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+  position: relative;
+  .word{
+    color: #000000;
+    font-size: 28px;
+  }
+  .media{
+    ul{
+      display: flex;
+      li{
+        padding: 10px;
+        a{
+          color:#0027D5;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

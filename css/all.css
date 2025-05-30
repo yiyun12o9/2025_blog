@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Kaushan+Script&family=Noto+Sans+TC:wght@100..900&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1.5;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  padding: 25px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.intro-img {
+  display: flex;
+}
+.intro-img img {
+  width: 50%;
+}
+.intro-img .intro_title {
+  margin: 13% 0 0 -45%;
+}
+.intro-img .intro_title .name {
+  font-size: 90px;
+  font-weight: 900;
+  color: #0027D5;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.intro-img .intro_title .job {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0027D5;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.intro_content {
+  background-color: #ffffff;
+  margin: -10% 8% 0 auto;
+  max-width: 900px;
+  padding: 40px 80px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+  position: relative;
+}
+.intro_content .word {
+  color: #000000;
+  font-size: 28px;
+}
+.intro_content .media ul {
+  display: flex;
+}
+.intro_content .media ul li {
+  padding: 10px;
+}
+.intro_content .media ul li a {
+  color: #0027D5;
+  font-size: 24px;
+}
+
+.plan h2 {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 70px auto 70px 7%;
+}/*# sourceMappingURL=all.css.map */
