@@ -65,19 +65,25 @@ nav {
   background-color: #ffffff;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 nav ul {
   display: flex;
   justify-content: center;
 }
 nav ul li {
-  padding: 25px 20px;
+  padding: 15px 20px;
 }
 nav ul li a {
   text-decoration: none;
   color: #000000;
   font-size: 24px;
   font-weight: 700;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover {
+  color: #858585;
+  transition: all 0.3s ease;
 }
 
 .intro-img {
@@ -104,11 +110,11 @@ nav ul li a {
 
 .intro_content {
   background-color: #ffffff;
-  margin: -10% 8% 0 auto;
+  margin: -10% 4% 0 auto;
   max-width: 900px;
   padding: 40px 80px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  z-index: 999;
+  z-index: 2;
   position: relative;
 }
 .intro_content .word {
@@ -118,16 +124,165 @@ nav ul li a {
 .intro_content .media ul {
   display: flex;
 }
-.intro_content .media ul li {
-  padding: 10px;
-}
-.intro_content .media ul li a {
+.intro_content .media ul li img {
   color: #0027D5;
   font-size: 24px;
+  transition: all 0.3s ease;
+}
+.intro_content .media ul li img:hover {
+  background-color: #e9e9e9;
+  transition: all 0.3s ease;
 }
 
-.plan h2 {
+.plan .title {
   font-size: 64px;
   font-weight: 700;
   margin: 70px auto 70px 7%;
+}
+.plan .service {
+  display: flex;
+  max-width: 1296px;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.plan .service .service_pic {
+  margin-left: 5%;
+}
+.plan .service .service_pic2 {
+  margin-left: 0;
+}
+.plan .service .service_content {
+  background-color: #fff;
+  width: 38%;
+  padding: 24px;
+  margin-left: -2%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+.plan .service .service_content .line {
+  width: 30px;
+  height: 2.5px;
+  background-color: #0027D5;
+  margin: 15px 0;
+}
+.plan .service .service_content .plan_title {
+  font-size: 28px;
+}
+.plan .service .service_content2 {
+  margin-left: 5%;
+  margin-right: -2%;
+}
+.plan .contact {
+  margin-right: 10%;
+  margin-top: -3%;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.plan .contact .fa-solid.fa-arrow-right {
+  border: 3px solid #000000;
+  border-radius: 50%;
+  padding: 6px 8px;
+}
+
+.blog .title {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 70px auto 70px 7%;
+}
+.blog .forcard {
+  display: flex;
+  align-items: center;
+}
+.blog .forcard .fa-solid.fa-arrow-right {
+  background-color: #0027D5;
+  color: #ffffff;
+  font-size: 28px;
+  border-radius: 50%;
+  padding: 7px 8px;
+  margin-right: 5%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.blog .forcard .fa-solid.fa-arrow-right:hover {
+  background-color: #0072d5;
+}
+.blog .forcard .fa-solid.fa-arrow-left {
+  background-color: #B2BEF2;
+  color: #ffffff;
+  font-size: 28px;
+  border-radius: 50%;
+  padding: 7px 8px;
+  margin-left: 5%;
+  margin-right: 10px;
+  cursor: not-allowed;
+}
+.blog .forcard .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1296px;
+  margin: auto;
+}
+.blog .forcard .card li {
+  width: 32%;
+  padding: 5px;
+}
+.blog .forcard .card li img {
+  width: 100%;
+  justify-content: center;
+}
+.blog .forcard .card li .date {
+  display: block;
+  font-size: 18px;
+}
+.blog .forcard .card li .tag {
+  font-size: 20px;
+  color: #0027D5;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.blog .forcard .card li .forpop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.blog .forcard .card li .popular {
+  background-color: #0027D5;
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 12px;
+  font-size: 15px;
+}
+.blog .forcard .card li .forh2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.blog .forcard .card li .content {
+  color: #4B4B4B;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.blog .forcard .card li .btn {
+  display: block;
+  width: 100px;
+  text-align: center;
+  color: #4B4B4B;
+  text-decoration: none;
+  border: 1px #4B4B4B solid;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 10px 0;
+  transition: all 0.3s ease;
+}
+.blog .forcard .card li .btn:hover {
+  background-color: #4B4B4B;
+  color: #fff;
+  transition: all 0.3s ease;
 }/*# sourceMappingURL=all.css.map */

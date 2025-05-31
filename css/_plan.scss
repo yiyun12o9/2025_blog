@@ -1,7 +1,56 @@
 .plan{
-  h2{
+  .title{
     font-size: 64px;
     font-weight: 700;
     margin: 70px auto 70px 7%;
+  }
+  .service{
+    display: flex;
+    max-width: 1296px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 64px;
+    .service_pic{
+      margin-left: 5%;
+    }
+    .service_pic2{
+      margin-left: 0;
+    }
+    .service_content{
+      background-color: #fff;
+      width:38%;
+      padding: 24px;
+      margin-left: -2%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      z-index: 1;
+      .line{
+        width: 30px;
+        height: 2.5px;
+        background-color:#0027D5;
+        margin: 15px 0;
+      }
+      .plan_title{
+        font-size: 28px;
+      }
+    }
+    .service_content2{
+      margin-left: 5%;
+      margin-right: -2%;
+    }
+  }
+  .contact{
+    margin-right: 10%;
+    margin-top: -3%;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    .fa-solid.fa-arrow-right{
+      border: 3px solid #000000;
+      border-radius: 50%;
+      padding: 6px 8px;
+    }
   }
 }
