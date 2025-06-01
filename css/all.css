@@ -132,6 +132,27 @@ nav ul li a:hover {
   transition: all 0.3s ease;
 }
 
+@media screen and (max-width: 1199px) {
+  .intro-img {
+    display: block;
+  }
+  .intro-img img {
+    width: 100%;
+  }
+  .intro-img .intro_title {
+    margin: -80% 0 10% 20%;
+  }
+  .intro-img .intro_title .name {
+    font-size: 80px;
+    font-weight: 900;
+    color: #0027D5;
+  }
+  .intro-img .intro_title .job {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0027D5;
+  }
+}
 .plan .title {
   font-size: 64px;
   font-weight: 700;
@@ -374,12 +395,27 @@ nav ul li a:hover {
   transition: all 0.3s ease;
 }
 
+@media screen and (max-width: 1199px) {
+  .new-article {
+    display: block;
+  }
+  .new-article .articel-img {
+    width: 100%;
+  }
+  .new-article .articel-img img {
+    width: 100%;
+  }
+  .new-article .articel-card {
+    width: 100%;
+  }
+}
 .blog-container {
   border: 1px solid #6C757D;
 }
 .blog-container .blog-card {
   max-width: 1296px;
   margin: auto;
+  padding: 0 10px;
 }
 .blog-container .blog-card .search {
   display: flex;
@@ -395,6 +431,7 @@ nav ul li a:hover {
   margin-left: 3px;
   border: 0;
   font-size: 16px;
+  background-color: #FBFBFB;
 }
 .blog-container .blog-card .card {
   display: flex;
@@ -466,6 +503,16 @@ nav ul li a:hover {
   transition: all 0.3s ease;
 }
 
+@media screen and (max-width: 1199px) {
+  .blog-container .blog-card .card li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .blog-container .blog-card .card li {
+    width: 100%;
+  }
+}
 .page {
   display: flex;
   background-color: #ffffff;
@@ -496,6 +543,7 @@ nav ul li a:hover {
   justify-content: space-between;
   max-width: 1296px;
   margin: 40px auto;
+  padding: 0 10px;
 }
 .footer1 p {
   font-size: 32px;
@@ -517,4 +565,10 @@ nav ul li a:hover {
 .footer2 p {
   text-align: center;
   padding: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer1 {
+    display: none;
+  }
 }/*# sourceMappingURL=all.css.map */

@@ -15,7 +15,6 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-
       margin: auto;
       li{
         padding: 20px 140px 20px 20px;
@@ -83,4 +82,18 @@
     }
   }
   
+}
+@media screen and (max-width: 1199px) {
+.new-article{
+    display: block;
+      .articel-img{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+    .articel-card{
+      width: 100%;
+    }
+  }
 }

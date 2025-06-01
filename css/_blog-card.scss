@@ -3,6 +3,7 @@
   .blog-card{
     max-width: 1296px;
     margin: auto;
+    padding: 0 10px;
     .search{
       display: flex;
       align-items: center;
@@ -16,6 +17,7 @@
         margin-left: 3px;
         border: 0;
         font-size: 16px;
+        background-color: #FBFBFB;;
       }
     }
     .card{
@@ -84,6 +86,28 @@
             color: #fff;
             transition: all 0.3s ease;
           }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1199px) {
+  .blog-container{
+    .blog-card{
+      .card{
+        li {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+.blog-container{
+    .blog-card{
+      .card{
+        li {
+          width: 100%;
         }
       }
     }

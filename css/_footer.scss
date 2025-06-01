@@ -3,6 +3,7 @@
   justify-content: space-between;
   max-width: 1296px;
   margin: 40px auto;
+  padding: 0 10px;
   p{
     font-size: 32px;
   }
@@ -24,5 +25,10 @@
   p{
     text-align: center;
     padding: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer1{
+    display: none;
   }
 }
