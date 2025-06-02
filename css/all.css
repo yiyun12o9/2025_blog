@@ -328,7 +328,6 @@ nav ul li a:hover {
 .new-article .articel-card .card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   margin: auto;
 }
 .new-article .articel-card .card li {
