@@ -132,7 +132,7 @@ nav ul li a:hover {
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .intro-img {
     display: block;
   }
@@ -396,11 +396,6 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 1199px) {
-  .new-article .articel-card .card li {
-    padding: 10px;
-  }
-}
-@media screen and (max-width: 767px) {
   .new-article {
     display: block;
   }
@@ -412,6 +407,9 @@ nav ul li a:hover {
   }
   .new-article .articel-card {
     width: 100%;
+  }
+  .new-article .articel-card .card li {
+    padding: 10px;
   }
 }
 .blog-container {
@@ -509,11 +507,6 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 1199px) {
-  .blog-container .blog-card .card li {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 767px) {
   .blog-container .blog-card .card li {
     width: 100%;
   }
