@@ -84,9 +84,20 @@
   
 }
 @media screen and (max-width: 1199px) {
-.new-article{
+  .new-article{
+    .articel-card{
+      .card{
+        li{
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .new-article{
     display: block;
-      .articel-img{
+    .articel-img{
       width: 100%;
       img{
         width: 100%;

@@ -132,7 +132,7 @@ nav ul li a:hover {
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .intro-img {
     display: block;
   }
@@ -396,6 +396,11 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 1199px) {
+  .new-article .articel-card .card li {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
   .new-article {
     display: block;
   }
