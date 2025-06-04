@@ -1,6 +1,6 @@
-.blog-container{
+.border-gray{
   border: 1px solid #6C757D;
-  .blog-card{
+  .blog-card-container{
     max-width: 1296px;
     margin: auto;
     padding: 0 10px;
@@ -24,7 +24,6 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-start;
-      max-width: 1296px;
       margin: auto;
       li{
         width: 33%;
@@ -43,8 +42,10 @@
           font-weight: 500;
           margin-right: 10px;
           text-decoration: none;
+          transition: all 0.3s ease;
           &:hover{
             color: #0072d5;
+            transition: all 0.3s ease;
           }
         }
         .forpop{
@@ -92,8 +93,19 @@
   }
 }
 @media screen and (max-width: 1199px) {
-.blog-container{
-    .blog-card{
+.border-gray{
+    .blog-card-container{
+      .card{
+        li {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+.border-gray{
+    .blog-card-container{
       .card{
         li {
           width: 100%;

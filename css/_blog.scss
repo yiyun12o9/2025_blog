@@ -16,8 +16,10 @@
       margin-right: 5%;
       margin-left: 10px;
       cursor: pointer;
+      transition: all 0.3s ease;
       &:hover{
         background-color: #0072d5;
+        transition: all 0.3s ease;
       }
     }
     .fa-solid.fa-arrow-left{
@@ -53,8 +55,10 @@
           font-weight: 500;
           margin-right: 10px;
           text-decoration: none;
+          transition: all 0.3s ease;
           &:hover{
             color: #0072d5;
+            transition: all 0.3s ease;
           }
         }
         .forpop{

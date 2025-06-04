@@ -1,21 +1,30 @@
 .intro-img{
   display: flex;
-  img{
+  .w-50{
     width:50%;
   }
   .intro_title{
-    margin: 13% 0 0 -45%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #0027D5;
     .name{
       font-size: 80px;
       font-weight: 900;
       color:#0027D5;
+      margin-left: 80px;
     }
     .job{
       font-size: 28px;
       font-weight: 700;
       color:#0027D5;
+      margin-left: 80px;
     }
   }
+  .background{
+      background: url("../img/hero-section2.png");
+    }
 }
 
 .intro_content{
@@ -49,11 +58,12 @@
 @media screen and (max-width: 1199px) {
   .intro-img{
     display: block;
-    img{
+    .w-50{
       width:100%;
     }
     .intro_title{
-      margin: -80% 0 10% 20%;
+      width: 100%;
+      padding: 50px 0px;
       .name{
         font-size: 70px;
         font-weight: 900;

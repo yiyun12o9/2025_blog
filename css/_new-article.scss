@@ -29,8 +29,10 @@
           margin-right: 10px;
           margin-bottom: 5px;
           text-decoration: none;
+          transition: all 0.3s ease;
           &:hover{
             color: #0072d5;
+            transition: all 0.3s ease;
           }
         }
         .forpop{
@@ -38,15 +40,23 @@
           flex-wrap: wrap;
           align-items: center;
           margin-bottom: 5px;
+          .pop-title{
+            font-size: 20px;
+            color: #0027D5;
+            font-weight: 500;
+            margin-right: 10px;
+            margin-bottom: 5px;
+          }
+          .popular{
+            background-color: #0027D5;
+            color: #fff;
+            border-radius: 50px;
+            padding: 5px 12px;
+            font-size: 15px;
+            margin-bottom: 5px;
+          }
         }
-        .popular{
-          background-color: #0027D5;
-          color: #fff;
-          border-radius: 50px;
-          padding: 5px 12px;
-          font-size: 15px;
-          margin-bottom: 5px;
-        }
+        
         .forh2{
           font-size: 24px;
           font-weight: 600;
@@ -93,7 +103,7 @@
     }
     .articel-card{
       width: 100%;
-            .card{
+      .card{
         li{
           padding: 10px;
         }
